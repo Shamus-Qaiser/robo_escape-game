@@ -1,0 +1,63 @@
+/* Main App Styling */
+.app-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Dashboard Styling */
+  .dashboard {
+    padding: 20px;
+  }
+  
+  .model-card {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    height: 100%;
+  }
+  
+  .model-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  }
+  
+  /* Game Interface Styling */
+  .game-container {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    min-height: 80vh;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .game-controls {
+    margin-top: 30px;
+  }
+  
+  .game-btn {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    font-size: 24px;
+    border-radius: 50%;
+  }
+  
+  /* Navbar Styling */
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .nav-link {
+    font-size: 1.1rem;
+    margin: 0 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .game-btn {
+      width: 50px;
+      height: 50px;
+      font-size: 18px;
+    }
+  }
